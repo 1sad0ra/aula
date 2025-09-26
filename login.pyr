@@ -1,0 +1,7 @@
+usuario = input("Digite seu usuário: ")
+senha = int(input("Digite a sua senha: ")
+
+if usuario != "admin" or senha != 123:
+	print("Usuario ou senha inválidos.")
+else:
+	print("Login realizado com sucesso.")
